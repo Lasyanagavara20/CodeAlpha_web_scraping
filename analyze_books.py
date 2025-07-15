@@ -61,6 +61,7 @@ plt.xlabel('Rating')
 plt.ylabel('Number of Books')
 plt.grid(axis='y')
 plt.tight_layout()
+plt.savefig("rating_distribution.png")
 plt.show()
 # Count availability
 print("\n📦 Book Availability:")
@@ -72,6 +73,7 @@ df['Availability'].value_counts().plot(kind='pie', autopct='%1.1f%%', startangle
 plt.title('Availability of Books')
 plt.ylabel('')
 plt.tight_layout()
+plt.savefig("availability.png")
 plt.show()
 # Export cleaned data to Excel
 df.to_excel("cleaned_books_data.xlsx", index=False)
