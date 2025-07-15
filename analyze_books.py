@@ -39,6 +39,7 @@ plt.xlabel('Price (£)')
 plt.ylabel('Number of Books')
 plt.grid(True)
 plt.tight_layout()
+plt.savefig("price_distribution.png")
 plt.show()
 
 # Step 6: Top 10 Most & Least Expensive Books
