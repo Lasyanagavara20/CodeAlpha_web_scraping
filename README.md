@@ -38,6 +38,10 @@ This project scrapes book data from [books.toscrape.com](http://books.toscrape.c
 Here’s a sample visualization of the price distribution:
 
 ![Price Distribution](images/price_distribution.png)
+![Rating Distribution](images/rating_distribution.png)
+![Availability](images/availability.png)
+
+
 
 
 
